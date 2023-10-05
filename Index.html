@@ -50,17 +50,35 @@ p.choice{
 background-color: #0a66e6;
 
 }
+div.timer {
+  display: block;
+  position: absolute;
+  right: 0px;
+
+}
+.card progress{
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    transition:5s;
+   /*  border-radius:10%; */
+    border: blanchedalmond;
+}
     </style>
 </head>
 
 <body>
     <h1>General knowledge questions for Humans that can bring evidence to ensure</h1>
     <div class="card">
+        <br>
+<div class="timer">Time Left: <span>25s</span></div><br>
 <p class="question"></p>
 <div class="Answers">
 
 </div>
 <button onclick="next()">Next Question </button>
-    </div>
+ <progress value="1" max="10"></progress>   
+</div>
 </body>
 </html>
