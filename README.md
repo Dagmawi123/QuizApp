@@ -1,2 +1,2 @@
 # QuizApp
- A simple quiz app done with collaboration of Trivia API
+ A simple quiz app done in collaboration with Trivia API
